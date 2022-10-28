@@ -25,7 +25,7 @@
         <altura>De 20 a 25 metros</altura>
         <forma_estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma_estructura>
         <color_primavera>Haz verde medio, enves verde claro</color_primavera>
-        <color_otoño>Ocre</color_otoño>
+        <color_otonio>Ocre</color_otonio>
         <resistencia_heladas>Heladas fuertes (hasta -20ºC)</resistencia_heladas>
     </arbol>
     <arbol nombre="Quercus ilex">

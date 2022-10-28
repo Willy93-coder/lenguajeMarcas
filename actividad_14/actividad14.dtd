@@ -1,0 +1,10 @@
+<!ELEMENT arboles (arbol+)>
+<!ELEMENT arbol (nombre_comun?, vegetacion?, altura?, forma_estructura?, color_primavera?, color_otonio?, resistencia_heladas?)>
+<!ATTLIST arbol nombre CDATA #REQUIRED>
+<!ELEMENT nombre_comun (#PCDATA)>
+<!ELEMENT vegetacion (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT forma_estructura (#PCDATA)>
+<!ELEMENT color_primavera (#PCDATA)>
+<!ELEMENT color_otonio (#PCDATA)>
+<!ELEMENT resistencia_heladas (#PCDATA)>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email SYSTEM "actividad13.dtd">
+<email>
+    <mensaje>
+        <remite nombre="Alfredo Reino">
+            <email_remitente>alf@ibium.com</email_remitente>
+        </remite>
+        <destinatario nombre="Bill Clinton">
+            <email_destinatario>president@whitehouse.gov</email_destinatario>
+        </destinatario>
+        <asunto tema="Hola Bill">
+            <texto>
+                <parrafo>¿Hola qué tal?...</parrafo>
+            </texto>
+        </asunto>
+    </mensaje>
+</email>

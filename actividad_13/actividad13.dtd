@@ -1,0 +1,12 @@
+<!ELEMENT email (mensaje+)>
+<!ELEMENT mensaje (remite, destinatario, asunto)>
+<!ELEMENT remite (email_remitente)>
+<!ELEMENT email_remitente (#PCDATA)>
+<!ATTLIST remite nombre CDATA #REQUIRED>
+<!ELEMENT destinatario (email_destinatario)>
+<!ELEMENT email_destinatario (#PCDATA)>
+<!ATTLIST destinatario nombre CDATA #REQUIRED>
+<!ELEMENT asunto (texto)>
+<!ATTLIST asunto tema CDATA #REQUIRED>
+<!ELEMENT texto (parrafo+)>
+<!ELEMENT parrafo (#PCDATA)>

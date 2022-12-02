@@ -1,0 +1,8 @@
+<!ELEMENT cds_oferta (cd+)>
+<!ELEMENT cd (artista, pais, compania_discografica, precio, anio_publicacion)>
+<!ATTLIST cd titulo CDATA #REQUIRED>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT compania_discografica (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT anio_publicacion (#PCDATA)>

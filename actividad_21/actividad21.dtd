@@ -1,0 +1,6 @@
+<!ELEMENT acontecimientos (fecha+)>
+<!ELEMENT fecha (dia, mes, anio)>
+<!ATTLIST fecha hecho CDATA #REQUIRED>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>

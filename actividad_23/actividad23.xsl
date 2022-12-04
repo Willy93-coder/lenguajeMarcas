@@ -26,12 +26,10 @@
                                         <br />
                                         <xsl:value-of select="calle" />
                                         <br />
-                                        <xsl:value-of select="datos_origen">
-                                            <xls:for-each select="datos_origen">
-                                                <xsl:value-of select="poblacion_empresa" />
-                                                <xsl:value-of select="codigo_postal_empresa" />
-                                            </xls:for-each>
-                                        </xsl:value-of>
+                                        <xsl:for-each select="datos_origen">
+                                            <xsl:value-of select="poblacion_empresa" />
+                                            <xsl:value-of select="codigo_postal_empresa" />
+                                        </xsl:for-each>
                                         <br />
                                         C.I.F. : <xsl:value-of select="cif" />
                                         <br />
@@ -116,13 +114,15 @@
                                 <td colspan="2" style="text-align: left; border: 2px solid black">Cuota I.V.A</td>
                             </tr>
                         </xsl:for-each>
+                        <tr style="display: block; margin-top: 20px">
+                            <td colspan="6"></td>
+                        </tr>
                     </tbody>
-                    <tr style="display: block; margin-top: 20px"></tr>
+                    
                     <tbody>
                         <xsl:for-each select="facturas/factura">
                         <xsl:for-each select="total_factura">
                                 <tr style="border: 2px solid black">
-                                    
                                     <td colspan="2" style="text-align: left; border: 2px solid black">
                                         <xsl:value-of select="base_imponible" /> eur.
                                     </td>
@@ -138,7 +138,6 @@
                                         TOTAL FACTURA: <xsl:value-of select="@total" /> eur
                                     </td>
                                 </tr>
-                                
                             </xsl:for-each>
                         </xsl:for-each>
                     </tbody>

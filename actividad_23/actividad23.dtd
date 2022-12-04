@@ -1,0 +1,41 @@
+<!ELEMENT facturas (factura)>
+<!ELEMENT factura (datos_empresa, pedido, datos_cliente, datos_factura, total_factura)>
+<!ELEMENT datos_empresa (nombre_empresa, calle, datos_origen, cif, contacto)>
+<!ELEMENT nombre_empresa (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT datos_origen (poblacion_empresa, codigo_postal_empresa)>
+<!ELEMENT poblacion_empresa (#PCDATA)>
+<!ELEMENT codigo_postal_empresa (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT contacto (telefono, fax)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT pedido (fecha, numero_pedido, forma_pago)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT numero_pedido (#PCDATA)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ELEMENT datos_cliente (nombre_cliente, datos_envio)>
+<!ELEMENT nombre_cliente (#PCDATA)>
+<!ELEMENT datos_envio (direccion_envio, poblacion_cliente, codigo_postal_cliente, provincia_cliente)>
+<!ELEMENT direccion_envio (calle_cliente, numero_calle, escalera)>
+<!ELEMENT calle_cliente (#PCDATA)>
+<!ELEMENT numero_calle (#PCDATA)>
+<!ELEMENT escalera (#PCDATA)>
+<!ELEMENT poblacion_cliente (#PCDATA)>
+<!ELEMENT codigo_postal_cliente (#PCDATA)>
+<!ELEMENT provincia_cliente (#PCDATA)>
+<!ELEMENT datos_factura (datos_producto+)>
+<!ELEMENT datos_producto (descripcion, cantidad, precio, iva, importe)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT total_factura (base_imponible, iva, cuota_iva)>
+<!ELEMENT base_imponible (#PCDATA)>
+<!ELEMENT cuota_iva (#PCDATA)>
+<!ATTLIST factura numero CDATA #REQUIRED>
+<!ATTLIST datos_cliente numero CDATA #REQUIRED>
+<!ATTLIST escalera letra CDATA #REQUIRED>
+<!ATTLIST datos_producto referencia CDATA #REQUIRED>
+<!ATTLIST total_factura total CDATA #REQUIRED>

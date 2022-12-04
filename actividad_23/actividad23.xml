@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas SYSTEM "actividad23.dtd">
+<?xml-stylesheet href="actividad23.xsl" type="text/xsl"?>
+<facturas>
+    <factura numero='999'>
+        <datos_empresa>
+            <nombre_empresa>Equipos Digitales S.L.</nombre_empresa>
+            <calle>Avenida Valladolid</calle>
+            <datos_origen>
+                <poblacion_empresa>Madrid</poblacion_empresa>
+                <codigo_postal_empresa>28015</codigo_postal_empresa>
+            </datos_origen>
+            <cif>Q-9876543</cif>
+            <contacto>
+                <telefono>91.777.66.88</telefono>
+                <fax>91.777.66.99</fax>
+            </contacto>
+        </datos_empresa>
+        <pedido>
+            <fecha>12-01-2005</fecha>
+            <numero_pedido>731</numero_pedido>
+            <forma_pago>EFECTIVO</forma_pago>
+        </pedido>
+        <datos_cliente numero='879'>
+            <nombre_cliente>Darío Bueno Gutiérrez</nombre_cliente>
+            <datos_envio>
+                <direccion_envio>
+                    <calle_cliente>Av. Oporto</calle_cliente>
+                    <numero_calle>7 </numero_calle>
+                    <escalera letra='d'> 4</escalera>
+                </direccion_envio>
+                <poblacion_cliente>Madrid</poblacion_cliente>
+                <codigo_postal_cliente>28043</codigo_postal_cliente>
+                <provincia_cliente>Madrid</provincia_cliente>
+            </datos_envio>
+        </datos_cliente>
+        <datos_factura>
+            <datos_producto referencia="MII9300F/8">
+                <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+                <cantidad>1</cantidad>
+                <precio>230</precio>
+                <iva>16, 0</iva>
+                <importe>266,80</importe>
+            </datos_producto>
+            <datos_producto referencia="MB8QDIP4">
+                <descripcion>PLACA BASE QDI P4</descripcion>
+                <cantidad>1</cantidad>
+                <precio>180</precio>
+                <iva>16, 0</iva>
+                <importe>208,80</importe>
+            </datos_producto>
+            <datos_producto referencia="MEDD512M32">
+                <descripcion>DIMM DDR 512MB 3200</descripcion>
+                <cantidad>2</cantidad>
+                <precio>40</precio>
+                <iva>16, 0</iva>
+                <importe>92,80</importe>
+            </datos_producto>
+            <datos_producto referencia="HD250GSA7">
+                <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+                <cantidad>4</cantidad>
+                <precio>120</precio>
+                <iva>16, 0</iva>
+                <importe>556,80</importe>
+            </datos_producto>
+        </datos_factura>
+        <total_factura total="1125,20">
+            <base_imponible>970, 00</base_imponible>
+            <iva>16, 0</iva>
+            <cuota_iva>155, 20</cuota_iva>
+        </total_factura>
+    </factura>
+</facturas>

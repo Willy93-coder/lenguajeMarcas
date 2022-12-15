@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE facturas SYSTEM "actividad25.dtd">
+<?xml-stylesheet href="actividad25.xsl" type="text/xsl"?>
 <facturas>
     <factura numero='999'>
         <datos_empresa>

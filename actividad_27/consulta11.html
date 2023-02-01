@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Listado de libros</h1>
+        <table>
+            <thead>
+                <th>Título</th>
+                <th>Editorial</th>
+                <th>Precio</th>
+            </thead>
+            {
+            for $libro in doc("biblioteca.xml")/bib/libro
+            return
+            <tbody>
+                <tr>
+                    <td>{data($libro/titulo)}</td>
+                    <td>{data($libro/editorial)}</td>
+                    <td class="precio">{data($libro/precio)}</td>
+                </tr>
+            </tbody>
+            }
+        </table>
+    </div>
+</body>
+
+</html>

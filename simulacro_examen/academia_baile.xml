@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="academia_baile.xsl" type="text/xsl"?>
+<academia_baile>
+    <baile nombre="salon">
+        <precio_clase precio="230">
+            <periocidad_cuota>6</periocidad_cuota>
+            <moneda>€</moneda>
+        </precio_clase>
+        <plazas_disponibles>15</plazas_disponibles>
+        <fechas>
+            <fecha_inicio>01-02-2023</fecha_inicio>
+            <fecha_fin>10-05-2023</fecha_fin>
+        </fechas>
+        <dias_clase>
+            <dia1>Lunes</dia1>
+            <dia2>Miércoles</dia2>
+            <dia3>Viernes</dia3>
+        </dias_clase>
+        <profesor>Miquel Roig Jaume</profesor>
+        <sala>3</sala>
+    </baile>
+    <baile nombre="salsa">
+        <precio_clase precio="350">
+            <periocidad_cuota>5</periocidad_cuota>
+            <moneda>€</moneda>
+        </precio_clase>
+        <plazas_disponibles>22</plazas_disponibles>
+        <fechas>
+            <fecha_inicio>04-06-2023</fecha_inicio>
+            <fecha_fin>16-09-2023</fecha_fin>
+        </fechas>
+        <dias_clase>
+            <dia1>Martes</dia1>
+            <dia2>Jueves</dia2>
+            <dia3>Viernes</dia3>
+        </dias_clase>
+        <profesor>Juana Maria Dos Santos</profesor>
+        <sala>1</sala>
+    </baile>
+    <baile nombre="Tango">
+        <precio_clase precio="410">
+            <periocidad_cuota>5</periocidad_cuota>
+            <moneda>€</moneda>
+        </precio_clase>
+        <plazas_disponibles>10</plazas_disponibles>
+        <fechas>
+            <fecha_inicio>09-03-2023</fecha_inicio>
+            <fecha_fin>10-06-2023</fecha_fin>
+        </fechas>
+        <dias_clase>
+            <dia1>Lunes</dia1>
+            <dia2>Miércoles</dia2>
+        </dias_clase>
+        <profesor>Ana Maria Romero</profesor>
+        <sala>2</sala>
+    </baile>
+    <baile nombre="Jota">
+        <precio_clase precio="200">
+            <periocidad_cuota>6</periocidad_cuota>
+            <moneda>€</moneda>
+        </precio_clase>
+        <plazas_disponibles>15</plazas_disponibles>
+        <fechas>
+            <fecha_inicio>19-05-2023</fecha_inicio>
+            <fecha_fin>09-07-2023</fecha_fin>
+        </fechas>
+        <dias_clase>
+            <dia1>Lunes</dia1>
+            <dia2>Jueves</dia2>
+        </dias_clase>
+        <profesor>Alberto Sánchez Turó</profesor>
+        <sala>1</sala>
+    </baile>
+    <baile nombre="Bachata">
+        <precio_clase precio="300">
+            <periocidad_cuota>8</periocidad_cuota>
+            <moneda>€</moneda>
+        </precio_clase>
+        <plazas_disponibles>20</plazas_disponibles>
+        <fechas>
+            <fecha_inicio>19-02-2023</fecha_inicio>
+            <fecha_fin>10-04-2023</fecha_fin>
+        </fechas>
+        <dias_clase>
+            <dia1>Lunes</dia1>
+            <dia2>Martes</dia2>
+            <dia3>Viernes</dia3>
+        </dias_clase>
+        <profesor>Joana Socias Roig</profesor>
+        <sala>2</sala>
+    </baile>
+    <baile nombre="Tecno">
+        <precio_clase precio="205">
+            <periocidad_cuota>7</periocidad_cuota>
+            <moneda>€</moneda>
+        </precio_clase>
+        <plazas_disponibles>10</plazas_disponibles>
+        <fechas>
+            <fecha_inicio>20-03-2023</fecha_inicio>
+            <fecha_fin>14-04-2023</fecha_fin>
+        </fechas>
+        <dias_clase>
+            <dia1>Miércoles</dia1>
+        </dias_clase>
+        <profesor>Mariano Rodriguez</profesor>
+        <sala>2</sala>
+    </baile>
+</academia_baile>
